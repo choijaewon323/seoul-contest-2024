@@ -1,0 +1,95 @@
+.container {
+    width: 926px;
+    margin: auto;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top > .logo {
+    margin-top: 30px;
+}
+
+.top > .nav {
+    display: flex;
+}
+
+.top > .nav > li {
+    margin-top: 30px;
+}
+
+.top > .nav > li:not(:last-child) {
+    margin-right: 30px;
+}
+
+.title {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.map_container {
+    margin-top: 90px;
+    text-align: center;
+    background-color: white;
+    border-radius: 22px;
+    box-shadow: 1px 1px 3px;
+}
+
+.map_container > h3 {
+    padding: 10px;
+}
+
+.map_container > .map {
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.weather {
+    margin: auto;
+    margin-top: 25px;
+    background-color: white;
+    border-radius: 22px;
+    box-shadow: 1px 1px 3px;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+}
+
+.weather > p {
+    line-height: 80px;
+}
+
+.closest {
+    margin-top: 150px;
+    border-radius: 22px;
+    box-shadow: 1px 1px 3px;
+    background-color: white;
+    min-height: 360px;
+    margin-bottom: 150px;
+}
+
+.closest > h2 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.closest_list {
+    display: flex;
+}
+
+.closest_list > li {
+    flex: 1;
+    margin: 25px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px;
+    min-height: 250px;
+}
+
+.closest_list > li > div {
+    padding: 10px;
+    align-self: center;
+}

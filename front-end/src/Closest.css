@@ -1,0 +1,17 @@
+.closest > h2 {
+    text-align: center;
+    margin-top: 56px;
+    margin-bottom: 13px;
+}
+
+.closest_list {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.closest_list > li {
+    flex: 1;
+    margin: 10px;
+    background-color: white;
+}
